@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-fuchsia-300 h-screen p-[20px]">
+      <h1 className="text-8xl bg-[#ededed]">TailwindCss Kurulum</h1>
+      <h1 className="text-3xl text-center font-bold underline">
+      Hello world!
+    </h1>
+    <div className="flex flex-col sm:flex-row gap-3 mt-4">
+    <div className="card">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1LRLLWGvs5sZdTzuMqLEahb88Pc.jpg"
+            alt="sa" className="rounded-xl h-[200px] animate-pulse"/>
+            <p className="line-clamp-1 hover:line-clamp-none">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus, fugiat? Eos, temporibus enim animi dolorem laudantium
+            aliquid delectus accusantium ratione, odio maiores excepturi
+            molestiae laboriosam?</p>
+    </div>
+    
+    <div className="card">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1LRLLWGvs5sZdTzuMqLEahb88Pc.jpg"
+            alt="sa" className="rounded-xl h-[200px] animate-pulse"/>
+            <p className="line-clamp-1 hover:line-clamp-none">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus, fugiat? Eos, temporibus enim animi dolorem laudantium
+            aliquid delectus accusantium ratione, odio maiores excepturi
+            molestiae laboriosam?</p>
+            
+    </div>
+    </div>
+
     </div>
   );
 }
